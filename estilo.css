@@ -1,0 +1,166 @@
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+.Float-solution{
+    overflow: hidden;
+}
+.body-class{
+    color:#000!important;background-color:#a1cfee!important
+}
+
+.JIP-carta-uno{
+    color:#000!important;background-color:rgb(238, 238, 238)!important;
+    
+}
+.JIP-sombra-box{
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.JIP-sombra-box2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+
+ 
+h1{font-family: FugazOne;
+    color: #dfdfdf;
+    text-shadow: rgb(80, 78, 78) 1px 0 2px;}
+
+h2, h3, h4, h5, p{
+    font-family: Ropa;
+    color: #777575;
+    
+}
+.JIP-contenedor{
+    padding:0.01em 16px;
+}
+
+i{
+    color: rgb(11, 68, 255);
+}
+
+.JIP-margin{margin:16px!important}
+.JIP-margin-bottom{margin-bottom:16px!important}
+.JIP-margin-left{margin-left:16px!important}
+.JIP-margin-right{margin-right:16px!important}
+.JIP-margin-top{margin-top:16px!important}
+
+.JIP-row-pading{
+    padding: 0px 10px;
+}
+.JIP-unTercio {
+    float: left;
+    width: 33%;
+}
+@media (min-width:601px){
+    
+    .JIP-dosTercios{
+        float: left; 
+        width: 66%;
+        padding-left: 10px; }
+}
+
+.JIP-display-perfil{
+    position:relative;
+}
+
+.JIP-display-bottomleft{
+    position:absolute;left:0;bottom:0;
+}
+
+.JIP-tiny{font-size:10px!important}
+.JIP-small{font-size:12px!important}
+.JIP-medium{font-size:15px!important}
+.JIP-large{font-size:18px!important}
+
+.JIP-pieDePagina{
+    
+    
+    clear: both;
+    background-color: #777575;
+    width: auto;
+    border: solid 1px #000;
+    
+      
+}
+.JIP-pieDePagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.JIP-pieDePagina p{
+color: #dfdfdf;
+display: flex;
+justify-content: center;
+
+}
+.JIP-pieDePagina div{
+    display: flex;
+    justify-content: center;
+}
+.JIP-pieDePagina i{
+    
+    margin: 5px;
+    color: #1493dd;
+    
+    }
+.JIP-formulario{
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}    
+.JIP-formulario form{
+    width: 80%;
+    background: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+
+}
+
+form input, form textarea{
+    margin: 5px;
+}
+form button{
+    width: 100px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+         }
+    .JIP-unTercio{
+        width: 100%;
+
+    }    
+    .JIP-display-perfil img{
+    width: 100%; 
+    height: auto;       
+    }
+    .JIP-dosTercios{
+        margin-top:16px!important;
+    }
+
+        }
+    
+   .JIP-hidden{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 1s;
+   }
+   .JIP-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+   }
+   .JIP-delay-300{
+    transition-delay: 300ms;
+   }
+   .JIP-delay-400{
+    transition-delay: 400ms;
+   }
+   .JIP-delay-500{
+    transition-delay: 500ms;
+   }
+   .JIP-delay-700{
+    transition-delay: 700ms;
+   }
